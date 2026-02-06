@@ -1,0 +1,7 @@
+{
+    "editor.inlineSuggest.edits.showLongDistanceHint": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.inlineSuggest.suppressSuggestions": false,
+    "editor.inlineSuggest.syntaxHighlightingEnabled": true,
+    "editor.inlineSuggest.enabled": false
+}
