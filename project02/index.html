@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /* .attribution { font-size: 11px; text-align: center; } */
+    /* .attribution a { color: hsl(228, 45%, 44%); } */
+/*     
+- Green: hsl(75, 94%, 57%)
+
+- White: hsl(0, 0%, 100%)
+
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%)
+
+## Typography */
+    * {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+
+    }
+
+    .container {
+      background-color: hsl(0, 0%, 12%);
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box {
+
+      height: auto;
+      width: 35rem;
+      position: relative;
+      background-color:hsl(0, 0%, 8%);
+      border-radius: 2rem;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .avatar {
+      margin-left: 38%;
+      margin-top: 5rem;
+      background-color: aqua;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid white;
+    }
+
+    .avatar img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    .content{
+      margin-left: 27%;
+      display: flex;
+      flex-direction: column;
+    }
+    h1{
+      padding-top: 30px;
+    color: #fff;
+  font-size: xx-large;
+    }
+    h3{
+      padding-top: px;
+      font-size: large;
+      padding-left: 20px;
+      color: hsl(75, 94%, 57%);
+
+    }
+    p{
+         margin-left: 26%;
+         font-size: 14px;
+         padding-top: 20px;
+         color: #fff;
+      
+    }
+
+.box-btn{
+margin-left: 17%;
+padding-top:40px;
+padding-bottom: 80px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+
+}
+ .btn{
+  width:80%;
+  height: 2.8rem;
+   border-radius: 1rem;
+   border: none;
+   background-color: hsl(0, 0%, 20%);
+   color: #fff;
+  cursor: pointer;
+ }
+ .btn:hover{
+
+  background-color:hsl(75, 94%, 57%);
+ color: black;
+ }
+ 
+
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+
+    <div class="box">
+      <div class="avatar">
+
+        <img src="/avatar-jessica.jpeg" alt="img">
+      </div>
+  <div class="content">
+      <h1>
+        Jessica Randall</h1>
+      <h3>London, United Kingdom
+      </h3>
+    </div>
+      <p>
+        "Front-end developer and avid reader."
+      </p>
+ <div class="box-btn">
+
+      <button class="btn">GitHub</button>
+      <button class="btn">Frontend Mentor</button>
+      <button class="btn">LinkedIn</button>
+      <button class="btn">Twitter</button>
+      <button class="btn">Instagram</button>
+ </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="attribution"> -->
+  <!-- Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.  -->
+  <!-- Coded by <a href="#">Your Name Here</a>. -->
+  <!-- </div> -->
+</body>
+
+</html>
